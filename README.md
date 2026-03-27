@@ -34,6 +34,7 @@ A full-stack web application to find and apply for internships.
 ## 📁 Project Structure
 frontend/
 ├── src/
+
 │ ├── pages/
 │ ├── services/
 │ └── App.js
@@ -43,3 +44,46 @@ backend/
 ├── service/
 ├── repository/
 ├── model/
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🔹 1. Clone Repo
+git clone https://github.com/hritik7260861012/internship-finder.git
+
+---
+
+### 🔹 2. Backend Setup
+cd backend
+mvnw spring-boot:run
+
+
+Runs on:
+
+http://localhost:8080
+
+---
+
+### 🔹 3. Frontend Setup
+
+
+cd frontend
+npm install
+npm start
+Runs on:
+
+http://localhost:3000
+
+---
+
+## 🔌 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|---------|------------|
+| POST | /login | User Login |
+| POST | /register | Register User |
+| GET | /internships | Get All Internships |
+| POST | /applications | Apply Internship |
+| GET | /applications/{userId} | User Applications |
