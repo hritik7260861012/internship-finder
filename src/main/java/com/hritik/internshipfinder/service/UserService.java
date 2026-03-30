@@ -14,7 +14,7 @@ public class UserService {
     public User register(User user) {
         return repo.save(user);
     }
-
+// My name is is ritik singh
     public User login(String email, String password) {
         return repo.findByEmailAndPassword(email, password);
     }
