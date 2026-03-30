@@ -24,6 +24,7 @@ function Dashboard() {
                 <div className="card" key={a.id}>
                     <p><b>Internship ID:</b> {a.internshipId}</p>
                     <p><b>Status:</b> {a.status}</p>
+					
                 </div>
             ))}
         </div>

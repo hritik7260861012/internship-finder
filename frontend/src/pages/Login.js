@@ -15,7 +15,7 @@ function Login() {
                     localStorage.setItem("userId", res.data.id);
                     navigate("/home");
                 } else {
-                    alert("Invalid Credentials");
+                    alert("Invalid user id and password");
                 }
             })
             .catch(() => {
